@@ -16,8 +16,8 @@ import javax.persistence.Id;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    Long id;
-    String name;
-    String lastName;
-    String division;
+    public Long id;
+    public String name;
+    public String lastName;
+    public String division;
 }
